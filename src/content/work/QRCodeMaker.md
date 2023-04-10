@@ -1,7 +1,7 @@
 ---
 title: QRCodeMaker
 publishDate: 2023-04-10 15:00:00
-img: /assets/stock-4.jpg
+img: /assets/qr_code.png
 img_alt: Image d'un QRCode.
 description: |
   Trop de site propose de faire des QRCodes en ligne mais payant, donc en voici un gratuit !

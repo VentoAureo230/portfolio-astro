@@ -1,7 +1,7 @@
 ---
 title: Itemizer - Deploiement sur Azure
-publishDate: 2020-03-02 00:00:00
-img: /assets/stock-1.jpg
+publishDate: 2023-03-02 00:00:00
+img: /assets/azure.png
 img_alt: Image du logo Azure.
 description: |
   Projet de découverte de la TMA et du déploiement sur Azure !

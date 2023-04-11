@@ -1,11 +1,10 @@
 ---
 title: Seek & Find - Trouve la plante !
-publishDate: 2019-12-01 00:00:00
+publishDate: 2022-12-15 15:00:00
 img: /assets/stock-2.jpg
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: Image de la page principale du site.
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Pour cette examen de 2ème année, nous avons réalisé un site web (à destination des utilisateurs mobiles), de recherche de plantes.
 tags:
   - Dev
   - Symfony

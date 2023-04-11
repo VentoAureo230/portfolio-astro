@@ -2,9 +2,9 @@
 title: Itemizer - Deploiement sur Azure
 publishDate: 2020-03-02 00:00:00
 img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Image du logo Azure.
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Projet de découverte de la TMA et du déploiement sur Azure !
 tags:
   - Azure
   - Docker

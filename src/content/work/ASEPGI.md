@@ -1,14 +1,14 @@
 ---
 title: ASEPGI 92 - MyRéso+
-publishDate: 2020-03-02 00:00:00
+publishDate: 2022-06-15 15:00:00
 img: /assets/stock-1.jpg
-img_alt: Iridescent ripples of a bright blue and pink liquid
+img_alt: Logo de l'entreprise MyRéso+
 description: |
-  We designed a whodunnit-style game to introduce Markdown formatting. Suspense — suspicion — syntax!
+  Réalistation d'un site web lors du stage de ma 1ère année pour MyRéso+
 tags:
-  - Azure
-  - Docker
-  - Technique de maintenance applicative
+  - Wordpress
+  - PhP
+  - Dev
 ---
 
 ## Level-two heading

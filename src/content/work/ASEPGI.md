@@ -4,7 +4,7 @@ publishDate: 2022-06-15 15:00:00
 img: /assets/asepgi.jpg
 img_alt: Logo de l'entreprise MyRéso+
 description: |
-  Réalistation d'un site web lors du stage de ma 1ère année pour MyRéso+.
+  Réalisation d'un site web lors du stage de ma 1ère année pour MyRéso+.
 tags:
   - Wordpress
   - PhP

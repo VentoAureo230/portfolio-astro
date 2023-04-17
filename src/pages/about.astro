@@ -1,17 +1,17 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
 ---
 
-<BaseLayout title="A propos | Anthony Mény" description="A propos d'Anthony Mény">
+<BaseLayout
+	title="A propos | Anthony Mény"
+	description="A propos d'Anthony Mény"
+>
 	<div class="stack gap-20">
 		<main class="wrapper about">
-			<Hero
-				title="A propos"
-				tagline="Apprenez-en plus sur mon profil."
-			>
+			<Hero title="A propos" tagline="Apprenez-en plus sur mon profil.">
 				<img
 					width="1553"
 					height="873"
@@ -24,19 +24,30 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Qui suis-je ?</h2>
 				<div class="content">
 					<p>
-						J'ai 23 ans et je suis actuellement en 2e année à l'EPSI. Après un parcours en dents de scie à la sortie du bac, j'ai décidé de reprendre les études pour devenir concepteur développeur d'application.
+						J'ai 23 ans et je suis actuellement en 2e année à
+						l'EPSI. Après un parcours en dents de scie à la sortie
+						du bac, j'ai décidé de reprendre les études pour devenir
+						concepteur développeur d'application.
 					</p>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Je suis actuellement en poste pour un job étudiant dans
+						un petite <a
+							href="https://www.facebook.com/lecomptoirdufromagerbruz/"
+							>fromagerie</a
+						> à Bruz (venez faire un tour, c'est délicieux !). Avec toutes
+						ces expériences en entreprise depuis 2018, je suis rentré
+						en contact avec énormément de profils différent dans tout
+						autant de milieux différents et je suis capable de m'adapater
+						rapidement à l'environnement de l'entrerprise.
 					</p>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Mes expériences en stage se sont toutes dérouler en
+						télétravail, et j'y ai acquis énormément d'autonomie
+						pour pouvoir avancer. Cependant, j'aimerai pour
+						l'alternance que je recherche, j'aimerais être en
+						présentiel dans une entreprise et découvrir un cadre 
+						de travail plus proche de la réalité qui m'attend pour 
+						les années à venir.
 					</p>
 				</div>
 			</section>
@@ -44,26 +55,65 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Parcours</h2>
 				<div class="content">
 					<ul>
-						<li>2023 : Stage chez <a href="https://www.etayage.fr/">Etayage</a></li>
-						<li>2022 : Stage chez <a href="https://www.myresoplus.com/">MyRéso+</a></li>
-						<li>2019-2021 : Intérim pour diverse entreprise</li>
-						<li>2018 : Service civique chez <a href="https://addictions-france.org/actualites/dispositif-nozambule-5998/">Noz'Ambule</a> (prévention santé)</li>
-						<li>2017 : Bac économique et social</li>
+						<li>
+							2023 - Stage chez <a href="https://www.etayage.fr/"
+								>Etayage</a
+							> : Création et mise en place de contenu pédagogique
+							avec PicoCMS et NextCloud
+						</li>
+						<li>
+							2022 - Stage chez <a
+								href="https://www.myresoplus.com/">MyRéso+</a
+							> : Mise a jour du site de l'entreprise et refonte complète
+							d'un <a href="http://asepgi92.fr/">site</a> pour un client
+						</li>
+						<li>2019-2021 - Intérim pour diverse entreprise</li>
+						<li>
+							2018 - Service civique chez <a
+								href="https://addictions-france.org/actualites/dispositif-nozambule-5998/"
+								>Noz'Ambule</a
+							> (prévention santé)
+						</li>
+						<li>2017 - Bac économique et social</li>
 					</ul>
-
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Compétences</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<ul>
+						<li>Esprit d'équipe</li>
+						<li>Autonomie</li>
+						<li>Créatif</li>
+						<li>Calme</li>
+						<li>Ouvert au dialogue</li>
+					</ul>
+					<ul>
+						<li>PhP - Symfony (MCV)</li>
+						<li>Python</li>
+						<li>Docker</li>
+						<li>MySQL - SQL</li>
+						<li>Environnement Linux</li>
+					</ul>
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Références</h2>
+				<h2 class="section-title">
+					Ils ont travaillé avec moi, demandez leur un avis !
+				</h2>
 				<div class="content">
-					<p>Aurélien Lemaire</p>
-					<p>Stéfania Giraldo Garcia</p>
+					<p>
+						<a
+							href="https://www.linkedin.com/in/aur%C3%A9lien-lemaire/"
+							>Aurélien Lemaire</a
+						>
+					</p>
+					<p>
+						<a
+							href="https://www.linkedin.com/in/stefania-giraldo-garcia-ab753448/"
+							>Stefania Giraldo Garcia</a
+						>
+					</p>
 				</div>
 			</section>
 		</main>

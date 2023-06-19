@@ -13,12 +13,25 @@ tags:
   - Documentation
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.
+## Développement d'une plateforme interne à l'entreprise
 
-Integer vitae nibh elit. Suspendisse eget urna eu neque bibendum pharetra. Sed interdum lectus sem, in pulvinar magna dignissim vel. Quisque maximus at urna nec laoreet. Suspendisse potenti. Vestibulum rhoncus sem ut mi pellentesque, in vestibulum erat blandit. Aliquam sodales dui ac maximus consectetur. Duis quis est vehicula, imperdiet nisl nec, fermentum erat. Duis tortor diam, pharetra eu euismod in, vehicula non eros. Curabitur facilisis dui at erat ultrices gravida. In at nunc ultricies, pulvinar mi vel, sagittis mauris. Praesent pharetra posuere purus ac imperdiet. Nulla facilisi.
+### Contexte
 
-Sed pulvinar porttitor mi in ultricies. Etiam non dolor gravida eros pulvinar pellentesque et dictum ex. Proin eu ornare ligula, sed condimentum dui. Vivamus tincidunt tellus mi, sed semper ipsum pharetra a. Suspendisse sollicitudin at sapien nec volutpat. Etiam justo urna, laoreet ac lacus sed, ultricies facilisis dolor. Integer posuere, metus vel viverra gravida, risus elit ornare magna, id feugiat erat risus ullamcorper libero. Proin vitae diam auctor, laoreet lorem vitae, varius tellus.
+Mon stage a consisté essentiellement à la création de contenu pédagogique lors des 3 premières semaines de mon stage, pour alimenter le site et se faire un avis lors de la mise en commun du travail. 
+À la suite de cela, le reste du stage visait à développer ce site en appréhendant les outils que l’on allait utiliser pour le mettre ligne.
 
-Mauris sed eros in ex maximus volutpat. Suspendisse potenti. Donec lacinia justo consectetur sagittis tempor. Proin ullamcorper nisi vitae auctor rhoncus. Sed tristique aliquam augue. Pellentesque vitae fringilla ligula. Nulla arcu elit, efficitur eu nunc malesuada, eleifend tincidunt orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer mattis orci in bibendum ultricies. Quisque a dui erat. Phasellus et vulputate ipsum. Proin metus ex, lobortis nec ornare eget, bibendum ut sapien. Aliquam in dolor lobortis, aliquam tellus a, congue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+### Les capsules
 
-Aenean pretium purus augue, ut bibendum erat convallis quis. Cras condimentum quis velit ac mollis. Suspendisse non purus fringilla, venenatis nisl porta, finibus odio. Curabitur aliquet metus faucibus libero interdum euismod. Morbi sed magna nisl. Morbi odio nibh, facilisis vel sapien eu, tempus tincidunt erat. Nullam erat velit, sagittis at purus quis, tristique scelerisque tortor. Pellentesque lacinia tortor id est aliquam viverra. Vestibulum et diam ac ipsum mollis fringilla.
+Les capsules pédagogiques sont des tutoriels qui couvrent un sujet en particulier. Nous avons co-écrit les tutoriels sur PhP et MySQL et j’ai personnellement rédigé celui de Symfony ainsi que celui de NextCloud. Axel a rédigé ceux sur Apache, l’introduction à l’installation d’un LAMP et Pico CMS.
+L’idée derrière ces capsules est que chaque utilisateur qui les consulte puisse prendre en main rapidement la technologie, que ce soit de l’initiation à l’utilisation des outils ou bien l’installation sur un poste de travail. Ces tutoriels sont à destination des étudiants qui travaille à Etayage ou bien peuvent servir de support lors d’atelier pédagogique pour un client.
+Rédiger ces tutoriels implique que l’on doit se mettre dans la peau du lecteur et de bien rendre explicites les procédures décrites en apportant des informations, des conseils et en la documentant visuellement avec des captures d’écran. Tout doit être fait rendre la lecture et l’apprentissage du sujet facile pour le lecteur.
+
+Ayant rédigé certains tutoriels, je me suis aussi rendu compte que j’avais quelques lacunes techniques et la rédaction de ceux-là m’a permis de faire un point sur mes compétences et mon savoir pour mieux maîtriser ces technologies. J’ai aussi pu rencontrer quelques difficultés et c’est quelque chose que je peux préciser dans le tutoriel.
+
+### Environnement
+
+Cet environnement est basé sur NextCloud en utilisant Pico CMS pour la création du site web.
+
+NextCloud est un logiciel libre de site d’hébergement de fichier et une plateforme de collaboration. On retrouve une bibliothèque d’application qui permet de personnaliser son NextCloud en fonction de ses besoins, et c’est Pico CMS qui va gérer la création de site.
+
+Pour faire tourner NextCloud, il faut un serveur Apache et PhP sur sa machine Linux de préinstaller. On peut trouver une copie de l’application sur le site officiel de NextCloud, puis on configure un virtualhost avec Apache et une base de données avec MySQL ou MariaDB et une fois que tout est paramétré, on ouvre NextCloud à l’adresse de l’hôte et on termine l’installation depuis la page web.

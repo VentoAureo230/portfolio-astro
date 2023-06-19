@@ -11,7 +11,7 @@ tags:
   - Tool
 ---
 
-## Petit outils personnel de QR-Code
+## Petit outil personnel de QR-Code
 
 Pendant un moment, je cherchais un moyen de générer des QR-Codes pour un besoin personnel. Il s'avère que la plupart des sites qui en génèrent demande un petit paiement pour avoir le QR-Code. Donc je me suis dit que c'était une bonne opportunité de développer mon propre outil !
 

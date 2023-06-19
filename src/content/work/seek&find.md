@@ -1,7 +1,7 @@
 ---
 title: Seek & Find - Trouve la plante !
 publishDate: 2022-12-15 15:00:00
-img: /assets/stock-2.jpg
+img: /assets/plantes.jpg
 img_alt: Image de la page principale du site.
 description: |
   Pour cette examen de 2ème année, nous avons réalisé un site web (à destination des utilisateurs mobiles), de recherche de plantes.

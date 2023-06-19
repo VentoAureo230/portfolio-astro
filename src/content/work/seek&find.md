@@ -21,3 +21,5 @@ Nous avons donc conçu en premier la structure de la base de données et une foi
 S'en est suivi la conception de toutes les fonctionnalités du site côté administrateur pour gérer l'ajout, la modification et la suppression de données de plante, la gestion d'utilisateur et plus encore.
 
 Les utilisateurs quant à eux peuvent créer leur compte, modifier leur profil, le supprimer et bien sûr partir à la recherche de plante.
+
+Lien Git : https://github.com/VentoAureo230/MSPR_Plante

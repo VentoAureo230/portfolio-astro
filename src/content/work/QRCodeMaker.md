@@ -18,3 +18,5 @@ Pendant un moment, je cherchais un moyen de générer des QR-Codes pour un besoi
 Mon outil est très simple et n'est pas user-friendly, mais il est fonctionnel et utilisable par quiconque lit la notice.
 
 Un petit plus pour améliorer l'utilisation serait d'intégrer un GUI comme TkInter.
+
+Lien Git : https://github.com/VentoAureo230/QRCode

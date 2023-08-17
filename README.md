@@ -3,6 +3,7 @@
 ```
 npm create astro@latest -- --template portfolio
 ```
+-> https://www.anthony-meny.com
 
 ## 🧞 Commands
 
